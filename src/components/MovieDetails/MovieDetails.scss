@@ -1,0 +1,32 @@
+.movie-section {
+  display: flex;
+  flex-wrap: wrap;
+  color: #fff;
+  padding: 30px;
+  background-color: #1e1e1e;
+
+  .section-left {
+    flex: 1;
+    min-width: 300px;
+    padding-right: 20px;
+
+    h2 {
+      font-size: 28px;
+      margin-bottom: 16px;
+    }
+
+    p {
+      margin: 8px 0;
+      font-size: 16px;
+    }
+  }
+
+  .section-right {
+    flex: 0 0 300px;
+
+    img {
+      width: 100%;
+      border-radius: 8px;
+    }
+  }
+}

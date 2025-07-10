@@ -1,0 +1,27 @@
+@import "../../common/color.scss";
+
+.header {
+  height: 72px;
+  background-color: $primary-color;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 40px;
+}
+
+.movie-logo {
+  color: $font-primary;
+  font-size: 20px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.movie-image,
+.movie-image img {
+  width: 38px;
+  height: 38px;
+}
+.logo-link {
+  text-decoration: none;
+  color: inherit;
+}

@@ -1,0 +1,28 @@
+@import "../../common/color.scss";
+
+.movie-wrapper {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.movie-list {
+  margin-bottom: 40px;
+
+  h2 {
+    color: $font-secondary;
+    margin-bottom: 20px;
+    font-weight: 500;
+  }
+}
+
+.movie-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.movie-error {
+  text-align: center;
+  font-size: 1.2rem;
+  margin: 20px;
+}
