@@ -7,7 +7,7 @@ import {
   getError,
 } from "../../features/Movies/movieSlice";
 import MovieCard from "../Moviecard/MovieCard";
-import "../MovieListing/Movielisting.scss";
+import '../MovieListing/MovieListing.scss';
 import Loader from "../Loader/Loader";
 
 const MovieListing = () => {
